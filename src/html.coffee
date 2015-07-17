@@ -14,4 +14,5 @@ module.exports = (data) ->
           link rel: 'stylesheet', href: data.style
         script defer: true, src: data.common
         script defer: true, src: data.main
-      body null, data.body
+      body null
+        div id: 'app', data.body

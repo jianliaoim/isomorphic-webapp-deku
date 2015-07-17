@@ -1,11 +1,9 @@
 
-React = require 'react'
+{render, element} = require('deku')
 
-div = React.createFactory 'div'
+div = element.bind(element, 'div')
 
-module.exports = React.createClass
-  displayName: 'beta'
+module.exports =
+  render: ({props, state}) ->
+    div null, 'Test component B'
 
-  render: ->
-    div null,
-      'component beta'

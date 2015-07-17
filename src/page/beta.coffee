@@ -1,9 +1,10 @@
 
-React = require 'react'
+{renderString, tree, element, render} = require 'Deku'
+
 require '../styles/main.css'
 
-Beta = React.createFactory require '../component/beta'
+Beta = require '../component/beta'
 
-data = {}
+#data = {}
 
-React.render (Beta data), document.body
+render (tree (element Beta)), document.querySelector('#app')
