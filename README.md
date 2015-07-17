@@ -1,8 +1,10 @@
 
-Isomorphic Webapp Example
+Isomorphic Webapp in Deku
 ----
 
-Simplified solution of https://addons.talk.ai/
+### Goal
+
+Experiment Webapp with Deku
 
 ### Development
 

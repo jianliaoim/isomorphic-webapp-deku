@@ -9,6 +9,7 @@
   "author": "Teambition",
   "license": "MIT",
   "dependencies": {
+    "deku": "^0.4.10",
     "express": "^4.13.0",
     "react": "^0.13.3",
     "stir-template": "^0.1.4"
